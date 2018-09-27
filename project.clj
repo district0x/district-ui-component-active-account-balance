@@ -1,4 +1,4 @@
-(defproject district0x/district-ui-component-active-account-balance "1.0.0"
+(defproject district0x/district-ui-component-active-account-balance "1.0.1"
   :description "district UI component for displaying ETH or token balance of an active web3 account"
   :url "https://github.com/district0x/district-ui-component-active-account-balance"
   :license {:name "Eclipse Public License"

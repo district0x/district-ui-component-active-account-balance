@@ -13,10 +13,11 @@
         [:div.active-account-balance
          (dissoc props :contract :token-code :locale :max-fraction-digits :min-fraction-digits)
          [:span.balance
-          (format/format-number balance (merge
-                                          {:max-fraction-digits max-fraction-digits
-                                           :min-fraction-digits min-fraction-digits}
-                                          (when locale
-                                            {:locale locale})))]
+          (format/format-number (/ balance 1e18)
+                                (merge
+                                 {:max-fraction-digits max-fraction-digits
+                                  :min-fraction-digits min-fraction-digits}
+                                 (when locale
+                                   {:locale locale})))]
          " "
          [:span.token-code (or token-code (name contract))]]))))

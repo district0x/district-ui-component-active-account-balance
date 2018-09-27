@@ -3,7 +3,7 @@
 Clojurescript [reagent](https://github.com/reagent-project/reagent) UI component for displaying ETH or token balance of an active web3 account.
 
 ## Installation
-Add `[district0x/district-ui-component-active-account-balance "1.0.0"]` into your project.clj  
+Add `[district0x/district-ui-component-active-account-balance "1.0.1"]` into your project.clj  
 Include `[district.ui.component.active-account-balance]` in your CLJS file
 
 ## Module dependencies
